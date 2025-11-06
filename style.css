@@ -10,7 +10,6 @@
 
 html , body , main{
     width: 100vw;
-    overflow-x: hidden;
 }
 
 
@@ -230,3 +229,4 @@ main{
         display: flex;
     }
 }
+
