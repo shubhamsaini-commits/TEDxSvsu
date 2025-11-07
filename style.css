@@ -231,8 +231,3 @@ main{
         display: flex;
     }
 }
-@media (max-width: 930px){
-    .main{
-        margin-top: 100px;
-    }
-}
