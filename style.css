@@ -14,12 +14,12 @@
 .navbar{
     height: 60px;
     width: 100vw;
-    background: black;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(3px);
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: #fff;
-   box-shadow: 0 0 20px #000;
      position: fixed;
      z-index: 10;
 }
@@ -29,14 +29,18 @@
 .logo{
     margin-left: 40px;
 }
-.logo h1{
+.logo a h1{
     font-size: 20px;
+
 }
 .logo p{
    color: rgb(129, 129, 129); 
 }
 .logo .red{
     color: rgb(176, 0, 0);
+}
+.logo a{
+    text-decoration: none;
 }
 
 
@@ -102,13 +106,12 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
-    top: 60px ;
+    
 }
 
 .txtContainer{
     width: 100%;
-   
+   margin-top: 60px;
 
     display: flex;
     justify-content: space-evenly;
@@ -229,11 +232,5 @@ main{
     }
     .ham{
         display: flex;
-    }
-}
-
-@media (max-width: 580px){
-    .txtContainer{
-        margin-top: -60px;
     }
 }
