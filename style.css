@@ -231,3 +231,9 @@ main{
         display: flex;
     }
 }
+
+@media (max-width: 580px){
+    .txtContainer{
+        margin-top: -60px;
+    }
+}
