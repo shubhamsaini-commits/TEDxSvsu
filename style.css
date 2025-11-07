@@ -166,7 +166,7 @@ main{
     align-items: center;
     flex-direction: column;
     transition: all 0.5s;
-    background: rgba(255, 255, 255, .1);
+    background: rgba(255, 255, 255, .3);
     border: 1px solid rgba(255, 255, 255, .6);
     border-radius: 20px;
             }
@@ -228,10 +228,5 @@ main{
     }
     .ham{
         display: flex;
-    }
-}
-@media (max-width: 930px){
-    .main{
-        margin-top: 100px;
     }
 }
