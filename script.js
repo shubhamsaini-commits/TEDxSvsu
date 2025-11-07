@@ -2,17 +2,17 @@
 // WEB ANIMATION 
 VANTA.NET({
   el: "#main",
-  mouseControls: true,
+   mouseControls: true,
   touchControls: true,
   gyroControls: true,
   minHeight: 200.00,
   minWidth: 200.00,
   scale: 1.00,
   scaleMobile: 1.00,
-  color: 0xff0000,
+  color: 0xff005a,
   backgroundColor: 0x0,
-  maxDistance: 22.00,
-  spacing: 16.00
+  points: 9.00,
+  maxDistance: 17.00
 })
 
 
@@ -49,3 +49,4 @@ function updateTimer() {
   const timerInterval = setInterval(updateTimer, 1000);
 
 updateTimer();
+
