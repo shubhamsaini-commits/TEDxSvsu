@@ -166,8 +166,9 @@ main{
     align-items: center;
     flex-direction: column;
     transition: all 0.5s;
-    background: rgba(255, 255, 255, .3);
+    background: rgba(95, 95, 95, 0.2);
     border: 1px solid rgba(255, 255, 255, .6);
+    backdrop-filter: blur(2.5px);
     border-radius: 20px;
             }
       
@@ -228,5 +229,10 @@ main{
     }
     .ham{
         display: flex;
+    }
+}
+@media (max-width: 930px){
+    .main{
+        margin-top: 100px;
     }
 }
