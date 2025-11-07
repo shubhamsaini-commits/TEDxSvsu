@@ -43,7 +43,9 @@ function updateTimer() {
   document.querySelector(".hour .value").textContent = hours;
   document.querySelector(".min .value").textContent = minutes;
   document.querySelector(".sec .value").textContent = seconds;
+  console.log(days , hours , minutes , seconds)
   }
 
   const timerInterval = setInterval(updateTimer, 1000);
+
 updateTimer();
