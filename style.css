@@ -169,8 +169,10 @@ main{
     align-items: center;
     flex-direction: column;
     transition: all 0.5s;
-    background: rgba(95, 95, 95, 0.2);
-    border: 1px solid rgba(255, 255, 255, .6);
+    background: rgba(255, 0, 0, 0.2);
+    border: 1px solid rgba(255, 0, 0, .6);
+    /* background: rgba(95, 95, 95, 0.2);
+    border: 1px solid rgba(255, 255, 255, .6); */
     backdrop-filter: blur(2.5px);
     border-radius: 20px;
             }
