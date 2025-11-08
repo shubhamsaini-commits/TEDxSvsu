@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+   padding: env(safe-area-inset-top) 0 0 0;
     box-sizing: border-box;
     /* border: 1px solid red; */
     font-family: "Inter", sans-serif;
@@ -100,8 +100,9 @@
 }
 
 main{
+    padding-top: 60px;
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -111,7 +112,7 @@ main{
 
 .txtContainer{
     width: 100%;
-   margin-top: 60px;
+   /* margin-top: 60px; */
 
     display: flex;
     justify-content: space-evenly;
